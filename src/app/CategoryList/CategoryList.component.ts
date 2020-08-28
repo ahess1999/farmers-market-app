@@ -4,13 +4,7 @@ import { templateSourceUrl } from '@angular/compiler';
 @Component({
   selector: 'app-card',
   templateUrl: 'CategoryList.component.html',
-  styles: [`
-  :host {
-    display: block;
-    padding: 32px;
-    background-color: white;
-  }
-  `]
+  styleUrls: ['./CategoryList.component.css']
 })
 export class CategoryList implements OnInit {
 

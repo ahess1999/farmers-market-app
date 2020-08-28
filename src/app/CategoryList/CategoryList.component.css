@@ -1,0 +1,19 @@
+input[type=text] {
+    width: 150px;
+    background-repeat: no-repeat;
+    padding: 10px 40px 10px 40px;
+    transition: width 0.3s ease-in-out;
+    background-image: "assets/magnifying-glass.png";
+}
+  
+input[type=text]:focus {
+    width: 20%;
+}
+
+#search {
+    float: right;
+}
+#searchbutton {
+    float: right;
+    padding: 10px;
+}

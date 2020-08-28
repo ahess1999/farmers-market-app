@@ -4,11 +4,13 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CategoryList } from './CategoryList/CategoryList.component';
+import { CategoryCardComponent } from './category-card/category-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CategoryList
+    CategoryList,
+    CategoryCardComponent
   ],
   imports: [
     BrowserModule,
