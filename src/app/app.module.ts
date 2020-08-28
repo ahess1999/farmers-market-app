@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CardComponent } from './card-component/card-component.component';
+import { CategoryList } from './CategoryList/CategoryList.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent
+    CategoryList
   ],
   imports: [
     BrowserModule,

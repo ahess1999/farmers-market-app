@@ -1,28 +1,26 @@
 import { Component, OnInit, HostListener } from '@angular/core';
+import { templateSourceUrl } from '@angular/compiler';
 
 @Component({
   selector: 'app-card',
-  template: `<div>Card: {{name}}</div>`,
+  templateUrl: 'CategoryList.component.html',
   styles: [`
   :host {
     display: block;
     padding: 32px;
-    border: 1px solid black;
-    border-radius: 8px;
     background-color: white;
   }
   `]
 })
-export class CardComponent implements OnInit {
+export class CategoryList implements OnInit {
 
   constructor() { }
 
   @HostListener("click") onClick(){
-    console.log("User Click using Host Listener")
+    
   }
 
   name: string = "test";
-
   ngOnInit(): void {
   }
 
