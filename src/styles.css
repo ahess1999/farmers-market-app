@@ -1,0 +1,33 @@
+#kstatelogo {
+    float: right;
+}
+#kdalogo {
+    float: left;
+}
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+.Search {
+    float: right;
+}
+#body {
+    background-color: #512888;
+}
+.cardInner {
+    background-color: #512888;
+    display: grid;
+    grid-template-areas: "header header" "side content" "footer footer";
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+}
+#sitecontent {
+    display: grid;
+    grid-template-columns: auto;
+    grid-column-gap: 16px;
+    align-content: center;
+}
+#Side2 {
+    text-align: top;
+}
