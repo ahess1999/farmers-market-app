@@ -3,11 +3,10 @@
   gdGap="16px"
   gdRows="auto auto auto">
   <div gdArea="header">
-    <input type="text" class="Search"/>
-    <button class="Search">Search</button>
+    <input id = "search" type="text" name="search" placeholder="Search..">
    </div>
   <div gdArea="side">
-    Updates
+    <div>Updates</div>
    </div>
   <div gdArea="content" id="sitecontent">
   </div>
@@ -17,3 +16,17 @@
     Resources
   </div>
 </div>
+
+<style>
+  input[type=text] {
+    width: 150px;
+    background-repeat: no-repeat;
+    padding: 10px 40px 10px 40px;
+    transition: width 0.3s ease-in-out;
+    background-image: "assets/magnifying-glass.png";
+  }
+  
+  input[type=text]:focus {
+    width: 20%;
+  }
+</style>

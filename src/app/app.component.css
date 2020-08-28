@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+h1{
+    font-family: 'Amatic SC', cursive;
+}
+
+#kdalogo{
+    position: fixed;
+    left: 40px;
+}
+
+#kstatelogo{
+    position: fixed;
+    right: 40px;
+}
