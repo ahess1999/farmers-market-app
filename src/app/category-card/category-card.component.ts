@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, HostListener } from '@angular/core';
 
 @Component({
   selector: 'category-card',
@@ -11,5 +11,7 @@ export class CategoryCardComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  @Input() category: string;
 
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit, HostListener } from '@angular/core';
+import { Component, OnInit, } from '@angular/core';
 import { templateSourceUrl } from '@angular/compiler';
 
 @Component({
@@ -7,14 +7,14 @@ import { templateSourceUrl } from '@angular/compiler';
   styleUrls: ['./CategoryList.component.css']
 })
 export class CategoryList implements OnInit {
-
-  constructor() { }
-
-  @HostListener("click") onClick(){
-    
+  constructor() {
   }
-
-  name: string = "test";
+  categories: any[] = [
+    {name: 'Produce'},
+    {name: 'Other'},
+    {name: 'Test'}
+  ];
+  
   ngOnInit(): void {
   }
 

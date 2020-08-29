@@ -10,7 +10,10 @@
     <div>Updates</div>
    </div>
   <div gdArea="content" id="sitecontent">
-    <category-card></category-card>
+    <div *ngFor="let category of categories">
+      <category-card routerLink="{{category.name}}" [category]="category.name"></category-card>
+      <br>
+    </div>
   </div>
   <div gdArea="side2" id="Side2">
   </div>
