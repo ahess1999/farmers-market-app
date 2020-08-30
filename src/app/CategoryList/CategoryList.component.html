@@ -7,17 +7,59 @@
     <button id="searchbutton" type="submit">Search</button>
    </div>
   <div gdArea="side">
-    <div>Updates</div>
+    <div id ="updates">
+    </div>
    </div>
   <div gdArea="content" id="sitecontent">
     <div *ngFor="let category of categories">
-      <category-card routerLink="{{category.name}}" [category]="category.name"></category-card>
+      <category-card routerLink="{{category.name}}" [category]="category.name" id="category-card"></category-card>
       <br>
     </div>
   </div>
   <div gdArea="side2" id="Side2">
   </div>
-  <div gdArea="footer">
-    Resources
+  <div gdArea="footer" id = "resources">
+    <hr>
+    <h1 id ="resource-header">Resources</h1>
+    <hr>
+    <div id = "resource-row">
+      <button id = "resource-button">Resource 1</button>
+      <button id = "resource-button">Resource 2</button>
+      <button id = "resource-button">Resource 3</button>
+      <button id = "resource-button">Resource 1</button>
+      <button id = "resource-button">Resource 2</button>
+      <button id = "resource-button">Resource 3</button>
+    </div>
   </div>
 </div>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+  #category-card:hover{
+    box-shadow: 0 0.5em -0.4em;
+  }
+  #resource-row{
+    display: flex;
+  }
+  #resource-button {
+  flex: auto;
+  background-color: #512888;
+  border: none;
+  color: white;
+  padding: 32px 8px;
+  text-align: center;
+  font-size: 64px;
+  opacity: 0.2;
+  transition: 0.4s;
+  font-family: 'Amatic SC', cursive;
+  }
+
+#resource-button:hover {opacity: 1}
+#resource-header{
+  font-family: 'Amatic SC', cursive;
+}
+
+#resources{
+  background-color: white;
+}
+</style>
