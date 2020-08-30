@@ -5,11 +5,11 @@ h1{
 }
 
 #kdalogo{
-    position: fixed;
+    position: sticky;
     left: 40px;
 }
 
 #kstatelogo{
-    position: fixed;
+    position: sticky;
     right: 40px;
 }
