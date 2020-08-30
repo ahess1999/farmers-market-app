@@ -27,16 +27,16 @@ input[type=text]:focus {
   display: flex;
 }
 #resource-button {
-flex: auto;
-background-color: #512888;
-border: none;
-color: white;
-padding: 32px 8px;
-text-align: center;
-font-size: 64px;
-opacity: 0.2;
-transition: 0.4s;
-font-family: 'Amatic SC', cursive;
+    flex: auto;
+    background-color: #512888;
+    border: none;
+    color: white;
+    padding: 32px 8px;
+    text-align: center;
+    font-size: 64px;
+    opacity: 0.2;
+    transition: 0.4s;
+    font-family: 'Amatic SC', cursive;
 }
 
 #resource-button:hover {opacity: 1}
@@ -46,8 +46,4 @@ font-family: 'Amatic SC', cursive;
 
 #resources{
 background-color: white;
-}
-
-#hidden {
-  display: none;
 }

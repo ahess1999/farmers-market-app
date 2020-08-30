@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+:host {
+    display: block;
+    padding: 32px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+  }
