@@ -9,12 +9,14 @@ import { templateSourceUrl } from '@angular/compiler';
 export class CategoryList implements OnInit {
   constructor() {
   }
+
   categories: any[] = [
     {name: 'Produce'},
     {name: 'Other'},
     {name: 'Test'}
   ];
-  
+
+
   ngOnInit(): void {
   }
 
