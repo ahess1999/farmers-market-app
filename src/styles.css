@@ -13,9 +13,7 @@ h1 {
     text-align: center;
     font-size: 70px;
 }
-.Search {
-    float: right;
-}
+
 #body {
     background-color: #512888;
 }
@@ -36,3 +34,24 @@ h1 {
 #Side2 {
     text-align: top;
 }
+
+@media (max-width:700px){
+    #kstatelogo{
+        width: 15%;
+        height: auto;
+    }
+    #kdalogo{
+        width: 15%;
+        height: auto;
+    }
+    h1{
+        font-size: 37px;
+    }
+    
+  
+  }
+  
+  @media (min-width: 700px){
+   
+    }
+  
