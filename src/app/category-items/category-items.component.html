@@ -11,9 +11,8 @@
     </div>
    </div>
   <div gdArea="content" id="sitecontent">
-    <div *ngFor="let category of categories">
-      <category-card routerLink="{{category.name}}" [category]="category" id="category-card">
-      </category-card>
+    <div *ngFor="let item of categoryitems">
+      <category-item-description [itemname]="item" id="category-card"></category-item-description>
       <br>
     </div>
   </div>
