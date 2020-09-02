@@ -51,9 +51,66 @@ input[type=text]:focus {
   background-color: white;
 }
 
-#favorites > h2 {
-  background-color: white;
-  font-family: 'Amatic SC', cursive;
-  border-right: 1px #512888;
+#updates {
+  background-color: orange;
+}
+
+@media (max-width:700px){
+  #search {
+    float:left;
+    width: 33.7%;
+  }
+  #searchbutton {
+    float: left;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  #category-card-mobile{
+    display:inline;
+    float: left;
+    width: 80%;
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+  #category-card{
+    display: none;
+  }
+  #resource-header-container{
+    display: none;
+  }
+  #resource-row{
+    display: none;
+  }
+  #resource-row-mobile{
+    display: inline;
+    display: flex;
+  }
+  #resource-button-mobile {
+    flex: auto;
+    background-color: #512888;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    font-size: 64px;
+    opacity: 0.4;
+    transition: 0.4s;
+    font-family: 'Amatic SC', cursive;
+  }
+    
+
+}
+
+@media (min-width: 700px){
+     #category-card-mobile{
+        display:none;
+      }
+      #resource-header-container-mobile{
+        display: none;
+      }
+      #resource-row-mobile{
+        display: none;
+      }
+
 }
 

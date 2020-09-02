@@ -47,3 +47,20 @@ font-family: 'Amatic SC', cursive;
 #resources{
 background-color: white;
 }
+
+@media (max-width:700px){
+    #search {
+      float:left;
+      width: 34%;
+    }
+    #searchbutton {
+      float: left;
+      padding: 10px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+  }
+  
+  @media (min-width: 700px){
+
+  }
