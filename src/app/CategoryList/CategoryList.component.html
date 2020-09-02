@@ -1,5 +1,3 @@
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
 <div class = "cardInner"
   gdAreas="header header header | side content side2 | footer footer footer"
   gdGap="16px"
@@ -9,16 +7,6 @@
     <button id="searchbutton" type="submit">Search</button>
    </div>
   <div gdArea="side">
-    <br>
-    <div *ngFor="let category of categories">
-      <category-card routerLink="{{category.name}}" [category]="category" id="category-card-mobile">
-      </category-card>
-      <br>
-    </div>
-    <div id = "resource-header-container-mobile">
-      <h1 id ="resource-header">Resources</h1>
-    </div>
-    
    </div>
   <div gdArea="content" id="sitecontent">
     <div *ngFor="let category of categories">
@@ -28,10 +16,6 @@
     </div>
   </div>
   <div gdArea="side2" id="Side2">
-    <div id="favorites">
-      <h2>Favorites:</h2>
-      <category-item-description [itemname]="Broccoli"></category-item-description>
-    </div>
   </div>
   <div gdArea="footer" id = "resources">
     <div id = "resource-header-container">
@@ -46,14 +30,6 @@
       <button id = "resource-button">Resource 1</button>
       <button id = "resource-button">Resource 2</button>
       <button id = "resource-button">Resource 3</button>
-    </div>
-    <div id = "resource-row-mobile">
-      <button id = "resource-button-mobile">Resource 1</button>
-      <button id = "resource-button-mobile">Resource 2</button>
-      <button id = "resource-button-mobile">Resource 3</button>
-      <button id = "resource-button-mobile">Resource 1</button>
-      <button id = "resource-button-mobile">Resource 2</button>
-      <button id = "resource-button-mobile">Resource 3</button>
     </div>
   </div>
 </div>

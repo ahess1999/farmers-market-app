@@ -2,13 +2,15 @@
 
 h1{
     font-family: 'Amatic SC', cursive;
+    height: 100px;
+    margin-top: 40px;
+    font-size: 100px;
+    text-align: center;
 }
-
 #kdalogo{
     position: sticky;
     left: 40px;
 }
-
 #kstatelogo{
     position: sticky;
     right: 40px;

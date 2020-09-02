@@ -45,6 +45,7 @@ input[type=text]:focus {
 
 #resource-header{
   font-family: 'Amatic SC', cursive;
+  font-size: 50px;
 }
 
 #resources{
@@ -52,7 +53,7 @@ input[type=text]:focus {
 }
 
 #updates {
-  background-color: orange;
+  background-color: white;
 }
 
 @media (max-width:700px){
@@ -97,20 +98,4 @@ input[type=text]:focus {
     transition: 0.4s;
     font-family: 'Amatic SC', cursive;
   }
-    
-
 }
-
-@media (min-width: 700px){
-     #category-card-mobile{
-        display:none;
-      }
-      #resource-header-container-mobile{
-        display: none;
-      }
-      #resource-row-mobile{
-        display: none;
-      }
-
-}
-
