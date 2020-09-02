@@ -12,6 +12,6 @@ export class CategoryCardComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  @Input() category: string;
+  @Input() category: any;
 
 }

@@ -36,3 +36,6 @@ h1 {
 #Side2 {
     text-align: top;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

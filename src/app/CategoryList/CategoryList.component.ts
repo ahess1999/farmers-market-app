@@ -16,7 +16,10 @@ export class CategoryList implements OnInit {
     {name: 'Test'}
   ];
 
-
+  favorites: string[] = [
+    
+  ];
+  Broccoli: string = "Broccoli";
   ngOnInit(): void {
   }
 

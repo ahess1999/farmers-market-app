@@ -7,7 +7,8 @@ import { CategoryList } from './CategoryList/CategoryList.component';
 import { CategoryCardComponent } from './category-card/category-card.component';
 import { CategoryItemsComponent } from './category-items/category-items.component';
 import { CategoryItemDescriptionComponent } from './category-item-description/category-item-description.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule } from '@angular/material/icon'; 
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,9 @@ import { CategoryItemDescriptionComponent } from './category-item-description/ca
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    BrowserAnimationsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
