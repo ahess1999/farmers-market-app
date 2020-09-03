@@ -5,13 +5,13 @@ body {
 }
 #kstatelogo {
     float: right;
+    
 }
 #kdalogo {
     float: left;
 }
 h1 {
     text-align: center;
-    font-size: 70px;
 }
 
 #body {

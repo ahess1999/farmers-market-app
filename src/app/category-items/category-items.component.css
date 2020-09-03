@@ -33,15 +33,16 @@ input[type=text]:focus {
     color: white;
     padding: 32px 8px;
     text-align: center;
-    font-size: 64px;
-    opacity: 0.2;
+    font-size: 2vw; 
+    opacity: 0.9;
     transition: 0.4s;
     font-family: 'Amatic SC', cursive;
 }
 
 #resource-button:hover {opacity: 1}
 #resource-header{
-font-family: 'Amatic SC', cursive;
+  font-family: 'Amatic SC', cursive;
+  font-size: 4.2vw; 
 }
 
 #resources{
@@ -57,5 +58,14 @@ background-color: white;
       float: left;
       padding: 10px;
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    #resource-button{
+      opacity: 1;
+    }
+    #resource-header{
+      font-size: 7vw;
+    }
+    #resource-button{
+      font-size: 4vw;
     }
   }
