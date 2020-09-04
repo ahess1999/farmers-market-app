@@ -36,7 +36,7 @@ input[type=text]:focus {
   font-size: 2vw; 
   opacity: 0.9;
   transition: 0.4s;
-  font-family: 'Amatic SC', cursive;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #resource-button:hover {
@@ -44,7 +44,7 @@ input[type=text]:focus {
 }
 
 #resource-header{
-  font-family: 'Amatic SC', cursive;
+  font-family: "Times New Roman", Times, serif;
   font-size: 4.2vw; 
 }
 

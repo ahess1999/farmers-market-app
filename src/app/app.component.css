@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 h1{
     margin: auto;
     padding: 10px;
@@ -7,32 +6,34 @@ h1{
 
 hr{
     width: 100%;
+    display: block;
 }
 
 h1{
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Bebas Neue', cursive;
     margin-top: 40px;
-    font-size: 6vw;
+    font-size: 5vw;
     text-align: center;
     width: 80%;
-
 }
 #kdalogo{
     left: 40px;
-    width: 13%;
+    width: 8%;
     height: auto;
 }
 #kstatelogo{
-    width: 13%;
+    width: 8%;
     height: auto;
     float: right;
 }
 .search-form{
     display: flex;
+    border: none;
 }
 #search-button {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    width: 12%
+    width: 12%;
+    border: none;
+    font-size: 2vw;
 
 }
 .search-box__input{
@@ -40,5 +41,14 @@ h1{
     font-size: 2.2vw; 
 }
 
-
-
+@media (max-width:700px){
+    #kstatelogo{
+        width: 18%;
+    }
+    #kdalogo{
+        width: 18%;
+    }
+    #top-hr{
+        display: none;
+    }
+}
