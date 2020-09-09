@@ -3,11 +3,11 @@
   gdGap="16px"
   gdRows="auto auto auto">
   <div gdArea="header">
-    <!--<input id="search" type="text" name="search" placeholder="Search..">
-    <button id="searchbutton" type="submit">Search</button>-->
    </div>
+   <!-- Empty side section -->
   <div gdArea="side">
    </div>
+   <!-- Displays the cards on the main page -->
   <div gdArea="content" id="sitecontent">
     <div *ngFor="let category of categories">
       <category-card routerLink="{{category.name}}" [category]="category" id="category-card">
@@ -20,6 +20,7 @@
   <div gdArea="footer" id = "resources">
     <div id = "resource-header-container">
     </div>
+    <!-- Resource section -->
     <div id = "resource-row">
       <a href="http://www.foodsafetykansas.org/"><button id = "resource-button">Make a report</button></a>
       <button id = "resource-button">Resource 2</button>

@@ -8,15 +8,17 @@ import { CategoryCardComponent } from './category-card/category-card.component';
 import { CategoryItemsComponent } from './category-items/category-items.component';
 import { CategoryItemDescriptionComponent } from './category-item-description/category-item-description.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatIconModule } from '@angular/material/icon'; 
+import { MatIconModule } from '@angular/material/icon';
+import { TestComponentComponent } from './test-component/test-component.component';
 @NgModule({
   declarations: [
     AppComponent,
     CategoryList,
     CategoryCardComponent,
     CategoryItemsComponent,
-    CategoryItemDescriptionComponent
-  ],
+    CategoryItemDescriptionComponent,
+    TestComponentComponent,
+],
   imports: [
     BrowserModule,
     AppRoutingModule,

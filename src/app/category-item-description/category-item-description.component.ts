@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon'; 
 import { NgModel } from '@angular/forms';
 
-
+// Selects components used in the component
 @Component({
   selector: 'category-item-description',
   templateUrl: './category-item-description.component.html',
@@ -16,6 +16,7 @@ export class CategoryItemDescriptionComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // Favorite button event handler
   wowyouclickedthis() {
     var favicon = document.getElementById(this.itemname);
     if(favicon.innerHTML === "favorite"){

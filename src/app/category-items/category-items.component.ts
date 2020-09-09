@@ -11,6 +11,6 @@ export class CategoryItemsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  // Category card names (large buttons in the middle of the screen)
   categoryitems: string[] = ["Broccoli", "Other"];
 }

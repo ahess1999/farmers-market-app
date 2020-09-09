@@ -9,16 +9,17 @@ import { templateSourceUrl } from '@angular/compiler';
 export class CategoryList implements OnInit {
   constructor() {
   }
-
+  //List of categories (large buttons on the homepage)
   categories: any[] = [
     {name: 'Produce'},
     {name: 'Other'},
     {name: 'Test'}
   ];
-
+  //Stores favorites (doesn't do anything at the moment)
   favorites: string[] = [
     
   ];
+
   Broccoli: string = "Broccoli";
   ngOnInit(): void {
   }

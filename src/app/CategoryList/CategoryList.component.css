@@ -55,7 +55,7 @@ input[type=text]:focus {
 #updates {
   background-color: white;
 }
-
+/* Handles mobile view for homepage card layout */ 
 @media (max-width:700px){
 
   #resource-button{

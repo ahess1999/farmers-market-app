@@ -5,7 +5,6 @@ body {
 }
 #kstatelogo {
     float: right;
-    
 }
 #kdalogo {
     float: left;
@@ -13,11 +12,12 @@ body {
 h1 {
     text-align: center;
 }
-
+/* Formats grid card layout */
 #body {
-    background-color: #512888;
+    background-color: #512888; /* changes background color of cards container */
 }
-.cardInner {
+/* Formats individual cards */
+.cardInner { 
     background-color: #512888;
     display: grid;
     grid-template-areas: "header header" "side content" "footer footer";
@@ -34,7 +34,7 @@ h1 {
 #Side2 {
     text-align: top;
 }
-
+/* Styles header for mobile */
 @media (max-width:700px){
     #kstatelogo{
         width: 15%;

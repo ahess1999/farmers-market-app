@@ -3,13 +3,13 @@
   gdGap="16px"
   gdRows="auto auto auto">
   <div gdArea="header">
-    <!--<input id="search" type="text" name="search" placeholder="Search..">
-    <button id="searchbutton" type="submit">Search</button>-->
    </div>
+   <!-- Side section currently empty-->
   <div gdArea="side">
     <div id ="updates">
     </div>
    </div>
+   <!-- Displays cards -->
   <div gdArea="content" id="sitecontent">
     <div *ngFor="let item of categoryitems">
       <category-item-description [itemname]="item" id="category-card"></category-item-description>
@@ -18,6 +18,7 @@
   </div>
   <div gdArea="side2" id="Side2">
   </div>
+  <!-- Resource section -->
   <div gdArea="footer" id = "resources">
     <div id = "resource-row">
       <button id = "resource-button">Resource 1</button>
